@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <title>Productos</title>
+    <link rel="stylesheet" href="../CSS/productos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fas fa-bolt"></i></div>
+                <span class="logo-text">LOS<span> JOTITAS</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html" class="active">Productos</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO SECTION - IMPACTANTE -->
+        <section class="hero-products">
+            <div class="hero-bg-animated"></div>
+            <div class="hero-products-content">
+                <span class="hero-badge">Colección 2026</span>
+                <h1><span class="gradient-text">Esto es lo que ofrecemos</span> </h1>
+                <p>Linternas tácticas, relojes deportivos, cargadores rápidos y parlantes de alta fidelidad. Descubre lo que necesitas </p>
+                <div class="hero-stats-products">
+                    <div class="hero-stat"><span>30+</span> Productos</div>
+                    <div class="hero-stat"><span>100%</span> Originales</div>
+                    <div class="hero-stat"><span>Atención</span> Personalizada</div>
+                </div>
+            </div>
+            <div class="hero-scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- FILTROS RÁPIDOS -->
+     <div class="filter-bar">
+    <div class="container">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all"><i class="fas fa-grid"></i> Todos</button>
+            <button class="filter-btn" data-filter="linter"><i class="fas fa-lightbulb"></i> Linternas</button>
+            <button class="filter-btn" data-filter="reloj"><i class="fas fa-clock"></i> Relojes</button>
+            <button class="filter-btn" data-filter="cargador"><i class="fas fa-charging-station"></i> Cargadores</button>
+            <button class="filter-btn" data-filter="parlante"><i class="fas fa-music"></i> Parlantes</button>
+        </div>
+    </div>
+</div>
+
+        <!-- GALERÍA DE PRODUCTOS - DISEÑO ELEGANTE -->
+        <section class="gallery-section">
+            <div class="container">
+                <div class="section-header-elegant">
+                    <span class="section-subtitle">Nuestro catálogo</span>
+                    <h2>Productos <span>seleccionados</span> para ti</h2>
+                    <p>Calidad que se siente, precio que convence</p>
+                </div>
+
+                <div class="products-grid" id="productsGrid">
+                    <!-- ========== LINTERNAS (imágenes 1 al 12, 27, 29, 32) ========== -->
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/1.jpeg" alt="LD-L406A Linterna">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Top venta</div>
+                                <h3>LD-L406A</h3>
+                                <p>60W · 3000mAh · Salida USB</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>LD-L406A</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 60W de potencia</li>
+                                    <li><i class="fas fa-check"></i> Batería 3000mAh</li>
+                                    <li><i class="fas fa-check"></i> Función salida USB</li>
+                                    <li><i class="fas fa-check"></i> 6 horas de duración</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20LD-L406A" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/3.jpeg" alt="LD-L682A">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Nuevo</div>
+                                <h3>LD-L682A</h3>
+                                <p>USB · Type-C · 2000m</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>LD-L682A</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> USB + Type-C</li>
+                                    <li><i class="fas fa-check"></i> Batería 2000m</li>
+                                    <li><i class="fas fa-check"></i> Marca exclusiva</li>
+                                    <li><i class="fas fa-check"></i> 6h duración</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20LD-L682A" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/10.jpeg" alt="LD-L1545A">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Zoom</div>
+                                <h3>LD-L1545A</h3>
+                                <p>30W · 5800mAh · Zoom</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>LD-L1545A</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Aleación aluminio</li>
+                                    <li><i class="fas fa-check"></i> Zoom telescópico</li>
+                                    <li><i class="fas fa-check"></i> Pantalla digital</li>
+                                    <li><i class="fas fa-check"></i> Batería 5800mAh</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20LD-L1545A" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/32.jpeg" alt="BOSSNEY Táctica">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Táctico</div>
+                                <h3>BOSSNEY</h3>
+                                <p>100M alcance · Type-C · LED</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>BOSSNEY Serie</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Alcance 100M</li>
+                                    <li><i class="fas fa-check"></i> LED Multifunción</li>
+                                    <li><i class="fas fa-check"></i> Carga Type-C</li>
+                                    <li><i class="fas fa-check"></i> Aluminio resistente</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20BOSSNEY" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/12.jpeg" alt="LD-L496A">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-L496A</h3>
+                                <p>Luz intensa · USB</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>LD-L496A</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Alta luminosidad</li>
+                                    <li><i class="fas fa-check"></i> Puerto USB</li>
+                                    <li><i class="fas fa-check"></i> Compacta</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20LD-L496A" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/27.jpeg" alt="GT60 Aluminio">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Premium</div>
+                                <h3>GT60 Aluminio</h3>
+                                <p>100,000h · Zoom · Type-C</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>GT60 Aluminio</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Batería 32050A</li>
+                                    <li><i class="fas fa-check"></i> 100,000 horas útil</li>
+                                    <li><i class="fas fa-check"></i> Zoom + pantalla</li>
+                                    <li><i class="fas fa-check"></i> Type-C</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20GT60" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="linter">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/29.jpeg" alt="LD-L406A Edición">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-L406A Edición</h3>
+                                <p>60W · 3000m · Salida USB</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-bolt"></i>
+                                <h4>LD-L406A</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 60W de potencia</li>
+                                    <li><i class="fas fa-check"></i> Salida USB</li>
+                                    <li><i class="fas fa-check"></i> 6h duración</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20la%20linterna%20LD-L406A%20Edición" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ========== RELOJES (imágenes 2,5,6,25,26,30,31,33) ========== -->
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/2.jpeg" alt="WR50M SHUNWAY">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Deportivo</div>
+                                <h3>WR50M SHUNWAY</h3>
+                                <p>7:35 / 5:21 · WR 50M</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>WR50M SHUNWAY</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Cronógrafo preciso</li>
+                                    <li><i class="fas fa-check"></i> Resistencia 50M</li>
+                                    <li><i class="fas fa-check"></i> Ideal para running</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20WR50M%20SHUNWAY" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/5.jpeg" alt="T3-21">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>WR50M T3-21</h3>
+                                <p>1:38.63 · WR 50M</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>WR50M T3-21</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Cronógrafo</li>
+                                    <li><i class="fas fa-check"></i> Resistente al agua</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20T3-21" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/26.jpeg" alt="VITI">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>WR50M VITI</h3>
+                                <p>START/RESET · ALARMA</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>WR50M VITI</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Alarma integrada</li>
+                                    <li><i class="fas fa-check"></i> WR 50M</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20VITI" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/33.jpeg" alt="WR50M WIFI">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag">WIFI</div>
+                                <h3>WR50M WIFI</h3>
+                                <p>1:35:45 · WR 50M</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>WR50M WIFI</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Conectividad WiFi</li>
+                                    <li><i class="fas fa-check"></i> Cronógrafo</li>
+                                    <li><i class="fas fa-check"></i> Resistencia 50M</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20WR50M%20WIFI" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/30.jpeg" alt="5-621">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>WR50M 5-621</h3>
+                                <p>Crono exacto · WR50M</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>WR50M 5-621</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Precisión cronométrica</li>
+                                    <li><i class="fas fa-check"></i> WR50M</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%205-621" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/31.jpeg" alt="1:38.02">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>WR50M T3-21</h3>
+                                <p>1:38.02 · WR 50M</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>WR50M T3-21</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Precisión centesimal</li>
+                                    <li><i class="fas fa-check"></i> WR 50M</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20WR50M%20Precisión" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/6.jpeg" alt="S-SPORTS">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>SHUNWAY WR50M</h3>
+                                <p>Resistencia 50M · Deportivo</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>SHUNWAY WR50M</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Resistencia al agua</li>
+                                    <li><i class="fas fa-check"></i> Cronógrafo</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20SHUNWAY" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="reloj">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/25.jpeg" alt="LDBL682A">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LDBL682A</h3>
+                                <p>USB · WR50M</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-clock"></i>
+                                <h4>LDBL682A</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Puerto USB</li>
+                                    <li><i class="fas fa-check"></i> WR50M</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20reloj%20LDBL682A" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ========== CARGADORES (imágenes 17, 18) ========== -->
+                    <div class="product-card" data-category="cargador">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/17.jpeg" alt="ROMAX 100W">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> SuperFlash</div>
+                                <h3>CARGA SUPERFLASH</h3>
+                                <p>100W · Turbo Power</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-charging-station"></i>
+                                <h4>ROMAX 100W</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 100W potencia</li>
+                                    <li><i class="fas fa-check"></i> Carga rápida</li>
+                                    <li><i class="fas fa-check"></i> 6.2A salida</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20cargador%20ROMAX%20100W" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="cargador">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/18.jpeg" alt="ROMAX 80W">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>ROMAX 80W</h3>
+                                <p>Dual USB · 6.2A · Turbo Power</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-charging-station"></i>
+                                <h4>ROMAX 80W</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 80W potencia</li>
+                                    <li><i class="fas fa-check"></i> 6.2A salida</li>
+                                    <li><i class="fas fa-check"></i> Carga rápida</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20cargador%20ROMAX%2080W" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ========== PARLANTES (imágenes 9,14,15,16,19,20,21,22,23,40) ========== -->
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/22.jpeg" alt="LD-S849AC">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> BT</div>
+                                <h3>LD-S849AC</h3>
+                                <p>80W · Bluetooth · RGB · IPX6</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S849AC</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Bluetooth 5.0</li>
+                                    <li><i class="fas fa-check"></i> 80W potencia</li>
+                                    <li><i class="fas fa-check"></i> RGB + IPX6</li>
+                                    <li><i class="fas fa-check"></i> USB/SD/TF</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S849AC" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/19.jpeg" alt="LD-S635">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-S635 PARTY</h3>
+                                <p>Street dance · BASS · FM</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S635 PARTY</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Modo Street dance</li>
+                                    <li><i class="fas fa-check"></i> BASS reforzado</li>
+                                    <li><i class="fas fa-check"></i> Radio FM</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S635" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/20.jpeg" alt="LD-S652">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-S652</h3>
+                                <p>30W · Batería extralarga</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S652</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 30W potencia</li>
+                                    <li><i class="fas fa-check"></i> Larga duración</li>
+                                    <li><i class="fas fa-check"></i> Portátil</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S652" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/16.jpeg" alt="LD-S941">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-S941</h3>
+                                <p>Marca exclusiva · Alta calidad</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S941</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Sonido premium</li>
+                                    <li><i class="fas fa-check"></i> JIMH IMPOR</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S941" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/15.jpeg" alt="LD-S606">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-S606</h3>
+                                <p>Portátil · USB · FM Radio</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S606</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Puerto USB</li>
+                                    <li><i class="fas fa-check"></i> Radio FM</li>
+                                    <li><i class="fas fa-check"></i> Portátil</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S606" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/14.jpeg" alt="LD-S031AC">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LD-S031AC</h3>
+                                <p>25W · AC · Cable incluido</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S031AC</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 25W potencia</li>
+                                    <li><i class="fas fa-check"></i> Cable AC incluido</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S031AC" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/23.jpeg" alt="LIDIMI FM">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LIDIMI FM</h3>
+                                <p>Radio FM · Extra</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LIDIMI FM</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Radio FM integrada</li>
+                                    <li><i class="fas fa-check"></i> Batería duradera</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LIDIMI%20FM" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/40.jpeg" alt="LION EVITA">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <h3>LION EVITA</h3>
+                                <p>RADEAUTA CALIDAD</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LION EVITA</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> Calidad premium</li>
+                                    <li><i class="fas fa-check"></i> Sonido envolvente</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20LION%20EVITA" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="parlante">
+                        <div class="card-inner">
+                            <div class="product-front">
+                                <div class="product-img-container">
+                                    <img src="../Imagenes/21.jpeg" alt="LD-S849AC Pro">
+                                    <div class="img-overlay"><i class="fas fa-search-plus"></i></div>
+                                </div>
+                                <div class="product-tag"> Waterproof</div>
+                                <h3>LD-S849AC PRO</h3>
+                                <p>Parlante portátil 80W</p>
+                                <div class="price-badge">Consultar precio</div>
+                            </div>
+                            <div class="product-back">
+                                <i class="fas fa-music"></i>
+                                <h4>LD-S849AC PRO</h4>
+                                <ul>
+                                    <li><i class="fas fa-check"></i> 80W potencia</li>
+                                    <li><i class="fas fa-check"></i> Resistente al agua</li>
+                                    <li><i class="fas fa-check"></i> Bluetooth</li>
+                                </ul>
+                                <a href="https://wa.me/51928184696?text=Hola!%20Me%20interesa%20el%20parlante%20LD-S849AC%20PRO" class="wa-btn-card" target="_blank">Averiguar <i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-bolt"></i>
+                        <span>Los<span>Jotitas</span></span>
+                    </div>
+                    <p>Productos de confianza en Lambayeque. Calidad, buen precio y atención personalizada.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="informacion.html">Información</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Horario de atención</h4>
+                    <p><i class="far fa-calendar-alt"></i> Lunes a Viernes: 10am - 7pm</p>
+                    <p><i class="far fa-calendar-alt"></i> Sábados: 10am - 2pm</p>
+                    <p><i class="fab fa-whatsapp"></i> Domingos: solo WhatsApp</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contacto directo</h4>
+                    <p><i class="fab fa-whatsapp"></i> <strong>928 184 696</strong></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Lambayeque, Perú</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 LOS JOTITAS · Lambayeque </i> </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/productos.js"></script>
+</body>
+</html>

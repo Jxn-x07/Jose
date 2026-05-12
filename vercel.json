@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "name": "nova-tech-lambayeque",
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "HTML/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "CSS/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "JS/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "Imagenes/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/productos.html",
+      "dest": "/HTML/productos.html"
+    },
+    {
+      "src": "/informacion.html",
+      "dest": "/HTML/informacion.html"
+    },
+    {
+      "src": "/contacto.html",
+      "dest": "/HTML/contacto.html"
+    },
+    {
+      "src": "/CSS/(.*)",
+      "dest": "/CSS/$1"
+    },
+    {
+      "src": "/JS/(.*)",
+      "dest": "/JS/$1"
+    },
+    {
+      "src": "/Imagenes/(.*)",
+      "dest": "/Imagenes/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
